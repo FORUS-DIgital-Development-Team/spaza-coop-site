@@ -6,3 +6,4 @@
 .stock-intro{font-size:15px;line-height:1.75;max-width:840px;margin:20px 0 24px}.reference-label{font-size:10px;text-align:right;color:#7c8875}.closing .eyebrow{justify-content:center;color:#d8e5ce;margin-bottom:15px}.closing p{max-width:680px;margin:18px auto 25px;line-height:1.75}.header-cta{font-size:13px;padding:11px 16px;white-space:nowrap}.service-card .text-link{font-size:14px}.supplier-label{font-size:10px}.product h3{font-size:16px}.pack{font-size:14px}.unit{font-size:12px}.footer-note{font-size:12px}
 @media(max-width:760px){.header nav{gap:19px}.header-cta{font-size:12px;padding:10px 14px}.stock-intro{font-size:14px}.product h3{font-size:15px}.pack{font-size:13px}.closing p{font-size:15px}.service-card p{font-size:14px}.footer-note{font-size:12px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important}}
+@media(max-width:760px){.corner-tag{display:none}}

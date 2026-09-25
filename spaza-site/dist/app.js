@@ -21,7 +21,7 @@ function renderProducts(){
  document.querySelector('#products').innerHTML=featured.map(p=>{
  const [x,y,w,h]=p.crop,s=Math.min(112/w,130/h),left=(120-w*s)/2,top=(140-h*s)/2;
  const [whole,decimals]=(p.price/100).toFixed(2).split('.');
- return `<article class="product"><div class="product-art"><span class="product-tag">BOXER KZN</span><div class="product-cutout" role="img" aria-label="${p.brand} ${p.name}"><img src="assets/boxer-kzn-offers.png" alt="" style="width:${1888*s}px;left:${left-x*s}px;top:${top-y*s}px" loading="lazy"></div></div><div class="product-body"><div class="brand">${p.brand}</div><h3>${p.name}</h3><p class="pack">${p.pack}</p><div class="product-bottom"><div><div class="price">R${whole}<small>.${decimals}</small></div><div class="unit">${money(Math.round(p.price/p.units))} per unit</div></div><span class="reference-label">Reference<br>offer</span></div></div></article>`;
+ return `<article class="product"><div class="product-art"><span class="product-tag">BOXER KZN</span><div class="product-cutout" style="width:${w*s}px;height:${h*s}px" role="img" aria-label="${p.brand} ${p.name}"><img src="assets/boxer-kzn-offers.png" alt="" style="width:${1888*s}px;left:${-x*s}px;top:${-y*s}px" loading="lazy"></div></div><div class="product-body"><div class="brand">${p.brand}</div><h3>${p.name}</h3><p class="pack">${p.pack}</p><div class="product-bottom"><div><div class="price">R${whole}<small>.${decimals}</small></div><div class="unit">${money(Math.round(p.price/p.units))} per unit</div></div><span class="reference-label">Reference<br>offer</span></div></div></article>`;
  }).join('');
 }
 function openService(key){
