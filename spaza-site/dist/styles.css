@@ -7,3 +7,4 @@
 @media(max-width:760px){.header nav{gap:19px}.header-cta{font-size:12px;padding:10px 14px}.stock-intro{font-size:14px}.product h3{font-size:15px}.pack{font-size:13px}.closing p{font-size:15px}.service-card p{font-size:14px}.footer-note{font-size:12px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important}}
 @media(max-width:760px){.corner-tag{display:none}}
+.hero-foot{gap:9px;align-items:center;margin-top:25px}.hero-foot span{font-size:12px;color:#61705f;white-space:nowrap}.hero-foot img{display:block;width:200px;height:auto}.footer-forus-logo{display:block;width:192px;height:auto;margin-left:auto}footer>span{margin-left:0}@media(max-width:760px){.hero-foot img{width:170px}.footer-forus-logo{width:155px}footer>p:not(.footer-note){width:100%}}

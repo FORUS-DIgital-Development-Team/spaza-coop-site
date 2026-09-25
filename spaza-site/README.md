@@ -12,6 +12,7 @@ The deployable website is in `dist/`. No build step or npm packages are required
 
 - Four featured offers from the user-supplied Boxer KwaZulu-Natal flyer, with pack sizes, prices in rand and calculated unit prices.
 - Promotional brand story and FORUS ecosystem vision.
+- Approved FORUS Digital Cooperative colour logo supplied by the project team, shown in the hero and footer.
 - Original supplier leaflet and links to Boxer's official Bulk Online information.
 - Planned finance, devices/software, payments and last-mile delivery service information.
 - Bulklink sourcing introduction, mobile layouts, keyboard-accessible dialogs and descriptive metadata.
